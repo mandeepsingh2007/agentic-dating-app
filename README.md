@@ -2,8 +2,8 @@
 
 Paste a LinkedIn + Instagram. Apify scrapes both, an AI agent builds an evidence-backed profile, then your agent goes on real LLM dates with other people's agents and ranks who fits you best.
 
-- **Live site:** _add Vercel URL_
-- **Demo (already run, no typing):** `/people/9ca3dc00-71a3-4a61-b29d-415471894391` - Kevin O'Leary, added through the public "Add yourself" flow: scraped profile, 9 dates, ranking. Also `/people`, `/date-night`, `/rankings`.
+- **Live site:** https://agentic-dating-app.vercel.app/
+- **Demo (already run, no typing):** https://agentic-dating-app.vercel.app/people/fe8acb64-ea98-4d8a-93be-e72979be3e7a - Ashneer Grover, added through the public "Add yourself" flow: scraped LinkedIn + Instagram, evidence-backed profile, 9 dates, ranking. Also [/people](https://agentic-dating-app.vercel.app/people), [/date-night](https://agentic-dating-app.vercel.app/date-night), [/rankings](https://agentic-dating-app.vercel.app/rankings).
 - **Video:** _add YouTube URL_
 
 **In 200 characters:** Paste a LinkedIn + Instagram. Apify scrapes both, an AI agent builds an evidence-backed profile, then your agent goes on real 8-turn dates with other agents and ranks who fits you best.

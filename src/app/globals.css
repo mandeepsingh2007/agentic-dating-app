@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0c0a09;
+  --foreground: #f3ece2;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ink: #0c0a09;
+  --color-card: #171311;
+  --color-line: #2c2521;
+  --color-muted: #a39788;
+  --color-gold: #e8b86d;
+  --color-rose: #e8687f;
+  --color-sage: #8fbf9a;
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-fraunces);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.glow {
+  background: radial-gradient(60% 50% at 50% 0%, rgba(232, 184, 109, 0.14), transparent 70%);
+}
+
+@keyframes blink {
+  50% { opacity: 0.2; }
+}
+.live-dot {
+  animation: blink 1.2s infinite;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+.rise {
+  animation: rise 0.35s ease-out both;
+}
